@@ -4,4 +4,4 @@ This Moroccan electricity consumption dataset, courtesy of Maven Analytics, reve
 
 The dataset covers electricity consumption across three zones in Morocco, along with environmental factors such as temperature, humidity, and wind speed. My analysis focused on identifying seasonal patterns in electricity consumption at hourly, weekly, and monthly intervals, as well as exploring correlations between different variables and patterns across the three zones.
 
-moroccan-energy-consumption/heatmap.png
+![alt text](https://github.com/kahumawalter/moroccan-energy-consumption/blob/main/heatmap.png)
