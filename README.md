@@ -1,7 +1,18 @@
 # Moroccan-energy-consumption
 
-This Moroccan electricity consumption dataset, courtesy of Maven Analytics, revealed surprising insights. One of the most striking findings was the peak in power consumption at 8 pm every day. Additionally, the months of July and August saw the highest electricity consumption levels but what shocked me was the realization that temperature and power consumption had a moderate correlation which I had not expected. 
+This is an overview of an analysis conducted on an energy-related dataset focusing on electricity consumption patterns in Morocco. The analysis explores various aspects of the dataset, including seasonal patterns, correlations between different variables, and the transformation of the date column into a time series format using pandas.
 
-The dataset covers electricity consumption across three zones in Morocco, along with environmental factors such as temperature, humidity, and wind speed. My analysis focused on identifying seasonal patterns in electricity consumption at hourly, weekly, and monthly intervals, as well as exploring correlations between different variables and patterns across the three zones.
+Key Findings:
+
+Peak electricity consumption occurs at 8 pm every day, with the highest levels observed in July and August.
+Zone 1 exhibits the highest power consumption, followed by Zone 2 and Zone 3.
+Strong positive correlations exist between power consumption in different zones, with weaker correlations between environmental factors such as temperature, humidity, and wind speed.
+
+The analysis also highlights the supplementary role of solar power and wind energy in meeting power demands, alongside the existing on-grid efforts. Additionally, it outlines the data preprocessing steps undertaken to ensure data quality and integrity before conducting the analysis.
+
+Future Directions:
+The analysis sets the stage for developing a machine-learning model to forecast future electricity consumption patterns in Morocco. 
+
+Stay tuned for updates on the development of the machine-learning model and additional insights from the dataset. Contributions and feedback are welcome to enhance the analysis and drive future research in this area.
 
 ![alt text](https://github.com/kahumawalter/moroccan-energy-consumption/blob/main/heatmap.png)
