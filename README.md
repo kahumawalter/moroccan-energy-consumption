@@ -10,9 +10,8 @@ Strong positive correlations exist between power consumption in different zones,
 
 The analysis also highlights the supplementary role of solar power and wind energy in meeting power demands, alongside the existing on-grid efforts. Additionally, it outlines the data preprocessing steps undertaken to ensure data quality and integrity before conducting the analysis.
 
-Future Directions:
-The analysis sets the stage for developing a machine-learning model to forecast future electricity consumption patterns in Morocco. 
+Using Python's data science libraries, I preprocessed the data by scaling, encoding, and transforming the data to prepare it for the modelling stage.
 
-Stay tuned for updates on the development of the machine-learning model and additional insights from the dataset. Contributions and feedback are welcome to enhance the analysis and drive future research in this area.
+After testing with different regression models, I zeroed down on the Random Forest Regression model which I finely tuned and its performance was nothing short of extraordinary, with R-squared scores of 0.9783, 0.9782, and 0.9863 for Zones 1, 2, and 3, respectively, painting a vivid picture of the model's uncanny ability to predict electricity consumption patterns.
 
 ![alt text](https://github.com/kahumawalter/moroccan-energy-consumption/blob/main/heatmap.png)
